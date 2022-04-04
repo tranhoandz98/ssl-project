@@ -24,5 +24,4 @@ mix.js('src/index.jsx', 'js').react()
 if (mix.inProduction()) {
     mix.version();
 }
-mix.browserSync('localhost:1234');
     // mix.ts("src/index.jsx", "public/js").react();

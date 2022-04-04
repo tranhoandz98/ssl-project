@@ -2,11 +2,11 @@ import { lazy } from "react";
 import EmptyPage from "../../components/EmptyPage";
 import routerMain from "../../constants/routerMain";
 
+const Domain = lazy(() => import('../../pages/domain/Domain'));
 const Home = lazy(() => import('../../pages/home/Home'));
 const Page404 = lazy(() => import('../../pages/errors/Page404'));
 const Page500 = lazy(() => import('../../pages/errors/Page500'));
 const Page403 = lazy(() => import('../../pages/errors/Page403'));
-const Page401 = lazy(() => import('../../pages/errors/Page401'));
 
 
 const Routes = [
@@ -16,16 +16,17 @@ const Routes = [
         component: Home,
     },
     {
+        path: routerMain.DOMAIN,
+        exact: true,
+        component: Domain,
+    },
+
+    {
         path: routerMain.EMPTY,
         exact: true,
         component: EmptyPage,
     },
     //page error
-    {
-        path: routerMain.PAGE_401,
-        exact: true,
-        component: Page401,
-    },
     {
         path: routerMain.PAGE_403,
         exact: true,

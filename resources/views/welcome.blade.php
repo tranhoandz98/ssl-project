@@ -10,10 +10,11 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="/css/app.css" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
 </head>
 
-<body class="">
+<body class="text-[14px]">
     <div id="root"></div>
     <script src={{ asset('/js/index.js') }} ></script>
 
