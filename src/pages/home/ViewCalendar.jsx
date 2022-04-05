@@ -17,9 +17,9 @@ const ViewCalendar = () => {
     });
 
     return (
-        <div className=" py-6 px-6 rounded-xl bg-white shadow-md dark:bg-gray-800 overflow-auto ">
+        <div className=" py-6 px-6 rounded-md bg-white shadow-md dark:bg-gray-800 overflow-auto ">
             <div className="mb-2">
-                <p className="text-xl font-bold">Lịch</p>
+                <p className="text-lg font-medium">Lịch</p>
             </div>
             <div className="">
                 <Calendar

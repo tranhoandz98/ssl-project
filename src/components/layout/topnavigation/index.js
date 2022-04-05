@@ -100,16 +100,16 @@ export default function TopNavigation() {
     }
 
     return (
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-white shadow-md">
             {({ open }) => (
                 <>
                     <div className=" mx-auto px-2 sm:px-4 lg:px-4">
                         <div className="relative flex items-center justify-between h-16">
                             <div className="absolute inset-y-0 left-0 flex items-center ">
                                 {/* Mobile menu button*/}
-                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-full text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-full text-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="sr-only">Open main menu</span>
-                                    <MenuIcon className="block h-6 w-6" aria-hidden="true"
+                                    <MenuIcon className="block h-7 w-7" aria-hidden="true"
                                         onClick={toggle}
                                         aria-expanded="false"
                                         aria-label="Toggle sidenav"
@@ -127,7 +127,7 @@ export default function TopNavigation() {
                                 </button> */}
                                 <Menu as="div" className="ml-3 relative">
                                     <div>
-                                        <Menu.Button className="inline-flex items-center justify-center p-2 rounded-full focus:outline-none text-gray-400 hover:text-white hover:bg-gray-700  focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                                        <Menu.Button className="inline-flex items-center justify-center p-2 rounded-full focus:outline-none text-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-white">
                                             <span className="sr-only">View notifications</span>
                                             <BellIcon className="h-6 w-6 " aria-hidden="true" />
                                         </Menu.Button>
@@ -144,9 +144,9 @@ export default function TopNavigation() {
 
                                         <Menu.Items className="origin-top-right absolute right-0 mt-2 w-80 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                                             <div className="flex">
-                                                <div className="text-xl p-2 font-bold">Thông báo</div>
+                                                <div className="text-lg p-2 font-medium">Thông báo</div>
                                                 <div className="ml-auto">
-                                                    <Menu as="div" className="ml-3 relative">
+                                                    <Menu as="div" className="ml-3 relative z-[70]">
                                                         <div>
                                                             <Menu.Button className="inline-flex items-center justify-center p-2 rounded-full focus:outline-none text-gray-900 hover:text-white hover:bg-gray-700  focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                                                                 <span className="sr-only">Read notifications</span>

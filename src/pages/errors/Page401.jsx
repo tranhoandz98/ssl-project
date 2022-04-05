@@ -14,7 +14,7 @@ export const Page401 = () => {
                                 404
                             </h2>
                             <h4
-                                className="text-white font-semibold text-[22px] leading-tight mb-3"
+                                className="text-white font-medium text-[22px] leading-tight mb-3"
                             >
                                 Oops! That page can’t be found
                             </h4>
@@ -25,7 +25,7 @@ export const Page401 = () => {
                                 to={routerMain.HOME}
                                 className="
                   text-base
-                  font-semibold
+                  font-medium
                   text-white
                   inline-block
                   text-center

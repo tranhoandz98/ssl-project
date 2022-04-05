@@ -61,8 +61,8 @@ const Message = (props) => {
     return (
         <div className="w-full mt-8 lg:mt-0 lg:w-4/12 lg:pl-4 ">
 
-            <div className=" rounded-xl px-6 pt-6 bg-white shadow-md dark:bg-gray-800 overflow-auto max-h-[85vh]">
-                <div className="flex  text-xl pb-6 font-bold">
+            <div className=" rounded-md px-6 pt-6 bg-white shadow-md dark:bg-gray-800 overflow-auto max-h-[82vh]">
+                <div className="flex  text-lg pb-6 font-medium">
                     <p>Thông báo gần nhất</p>
                 </div>
                 <div className="pb-4">

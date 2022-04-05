@@ -32,9 +32,9 @@ const ChartDomain = () => {
 
 
     return (
-        <div className="py-6 px-6 rounded-xl bg-white shadow-md dark:bg-gray-800 ">
+        <div className="py-6 px-6 rounded-md bg-white shadow-md dark:bg-gray-800 ">
             <div className="mb-2">
-                <p className="text-xl font-bold">Chart</p>
+                <p className="text-lg font-medium">Chart</p>
             </div>
             <div>
                 <Chart type="doughnut" data={chartData} options={lightOptions}

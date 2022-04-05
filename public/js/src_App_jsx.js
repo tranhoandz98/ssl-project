@@ -793,8 +793,8 @@ var style = {
     right: 'right-0 lg:left-0'
   },
   container: "pb-32 lg:pb-12",
-  close: "duration-700 ease-out hidden transition-all lg:w-24",
-  open: "absolute duration-500 ease-in transition-all w-8/12 z-40 sm:w-5/12 md:w-64",
+  close: "duration-500 ease-out hidden transition-all lg:w-24",
+  open: "absolute duration-300 ease-in transition-all w-8/12 z-40 sm:w-5/12 md:w-64",
   "default": "h-screen overflow-y-auto text-white top-0 lg:absolute bg-gray-900 lg:block lg:z-40"
 };
 function SideNavigation(_ref) {
@@ -994,7 +994,7 @@ function TopNavigation() {
 
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Disclosure, {
     as: "nav",
-    className: "bg-gray-800",
+    className: "bg-white shadow-md",
     children: function children(_ref) {
       var open = _ref.open;
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
@@ -1005,12 +1005,12 @@ function TopNavigation() {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "absolute inset-y-0 left-0 flex items-center ",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Disclosure.Button, {
-                className: "inline-flex items-center justify-center p-2 rounded-full text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white",
+                className: "inline-flex items-center justify-center p-2 rounded-full text-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
                   className: "sr-only",
                   children: "Open main menu"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_heroicons_react_outline__WEBPACK_IMPORTED_MODULE_6__["default"], {
-                  className: "block h-6 w-6",
+                  className: "block h-7 w-7",
                   "aria-hidden": "true",
                   onClick: toggle,
                   "aria-expanded": "false",
@@ -1026,7 +1026,7 @@ function TopNavigation() {
                 className: "ml-3 relative",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Menu.Button, {
-                    className: "inline-flex items-center justify-center p-2 rounded-full focus:outline-none text-gray-400 hover:text-white hover:bg-gray-700  focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white",
+                    className: "inline-flex items-center justify-center p-2 rounded-full focus:outline-none text-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-white",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
                       className: "sr-only",
                       children: "View notifications"
@@ -1048,13 +1048,13 @@ function TopNavigation() {
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                       className: "flex",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                        className: "text-xl p-2 font-bold",
+                        className: "text-lg p-2 font-medium",
                         children: "Th\xF4ng b\xE1o"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                         className: "ml-auto",
                         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Menu, {
                           as: "div",
-                          className: "ml-3 relative",
+                          className: "ml-3 relative z-[70]",
                           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Menu.Button, {
                               className: "inline-flex items-center justify-center p-2 rounded-full focus:outline-none text-gray-900 hover:text-white hover:bg-gray-700  focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white",

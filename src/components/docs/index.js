@@ -3,7 +3,7 @@ import { FileIcon, FolderIcon, JsIcon } from './icons';
 
 export default function Docs() {
   return (
-    <div className="py-8 rounded-xl max-w-full  bg-gray-800">
+    <div className="py-8 rounded-md max-w-full  bg-gray-800">
       <h2 className="text-3xl font-medium mb-10 pl-3 md:pl-6">Documentation</h2>
       <section className="px-3 md:px-8 my-16">
         <h2 className="text-2xl font-medium">Features</h2>

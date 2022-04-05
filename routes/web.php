@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::view('/{path?}', 'welcome');
-// Route::get('{path?}', 'SinglePageController')->where('path', '[a-zA-Z0-9-/]+');

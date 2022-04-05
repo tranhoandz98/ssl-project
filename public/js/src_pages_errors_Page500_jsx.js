@@ -36,14 +36,14 @@ var Page500 = function Page500(props) {
               className: "font-bold text-white mb-2 text-[50px] sm:text-[80px] md:text-[100px] leading-none",
               children: "500"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
-              className: "text-white font-semibold text-[22px] leading-tight mb-3",
+              className: "text-white font-medium text-[22px] leading-tight mb-3",
               children: "Oops! Something went wrong"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
               className: "text-lg text-white mb-8",
               children: "Have you tried turning it off and on again?"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
               to: _constants_routerMain__WEBPACK_IMPORTED_MODULE_1__["default"].HOME,
-              className: " text-base font-semibold text-white inline-block text-center border border-white rounded-lg px-8 py-3 hover:bg-white hover:text-primary transition ",
+              className: " text-base font-medium text-white inline-block text-center border border-white rounded-lg px-8 py-3 hover:bg-white hover:text-primary transition ",
               children: "Go To Home"
             })]
           })
